@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: Entering directory `f:/tinyrenderer'
+g++ -Wall  -o build/main build/main.o build/tgaimage.o -lm
+ 
+make.exe: Leaving directory `f:/tinyrenderer'
+ 
